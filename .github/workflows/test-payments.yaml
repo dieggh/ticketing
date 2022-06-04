@@ -1,7 +1,7 @@
-name: payments-auth
+name: test-payments
 
 on:
-  pull_request
+  pull_request:
     paths:
       - 'payments/**'
 
