@@ -13,10 +13,10 @@ const setup = async () => {
         userId: 'asdad',
         version: 0
     });
-    await order.save()
+    await order.save();
     const data: OrderCancelledEvent['data'] = {
         id: order.id,
-        version: 0,
+        version: 1,
         ticket: {
             id: 'asdad',
         }
