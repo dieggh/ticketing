@@ -6,7 +6,7 @@ const clienApi = ({ req }) => {
 
     return axios.create({
       baseURL:
-        'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local',
+        'http://www.diegh-dev.xyz',
       headers: req.headers,
     });
   } else {
